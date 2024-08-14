@@ -1,0 +1,18 @@
+.) different types of data types
+int,double,char,string,float,long
+
+.)type casting
+implicit, explicit
+(if we add a sum of different data types , datatype of the ans will be greatest data type used in addition and it cannot be less than int.)
+
+.)Operators
+arithmatic(+,-,*,/,%,++(pre,post),--(pre,post))
+assignment(=,+=,-=,*=,/=,%=),also known as auto typecast operators
+relational(==,>,>=,<,<=,!,!=)
+logical(&&,||)
+bitwise and shift(~,&,|,^,>>>(right shift),>>(arithmatic right shift),<<(left shift))
+
+.)static keyword
+
+.)
+
