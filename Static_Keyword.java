@@ -1,6 +1,9 @@
 // Implementation of static Keyword
 /* 
  * Static Keyword is use when we want to use same variable throughout stoarge of that variable will be alloted by just declaring it, no other memory will be allocated by making object 
+ * We can only access static variables in static methods, if we try to access normal variable it will through error.
+ * While we can access both static and normal variable in normal methods. 
+ * But after making object of it we can use it easily. 
  
  */
 
