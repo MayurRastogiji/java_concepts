@@ -31,9 +31,11 @@ public class Threading{
 */
 
 // by implementing RUNNABLE interface
+// synchronized keyword prevents other thread to enter critical section while it is working in it.
 
 class MyThread implements Runnable {
 
+    @Override
     synchronized public void run() {
         for (int i = 0; i < 10; i++) {
             System.out.println("Thread name :" + Thread.currentThread().getName() + " , number :" + i);
